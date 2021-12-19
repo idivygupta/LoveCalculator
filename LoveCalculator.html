@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Love Calculator </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="./LoveCalculator.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="card w-50 m-auto text-center">    <!-- For putting card in center-->
+			<div class="card-header bg-danger text-dark"> Love Calculator </div>
+            <div class="card-body">
+            	<form class="form-inline w-75 m-auto">  <!-- For putting text in center-->
+            		<div class="form-group">
+            			<input type="text" name="" class="form-control text-center" placeholder="Your Name" id="yourname">
+            		</div>
+            		<div> <span class="pl-4 pr-4"> + </span> </div>   <!--The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element. Using Span Tag for (+) --> 
+            		<div class="form-group">
+            			<input type="text" name="" class="form-control text-center" placeholder="Love Name" id="lovename">
+            		</div>	
+            	</form>
+            	<br>
+            	<div class="w-75 m-auto">
+            		<button class="clickbutton btn-success w-40" onclick=" checklove()"> Check Love Percentage </button>
+            	</div>
+            	<br>
+            	<div>
+            		<input type="text" name="" id="lovevalue" class="form-control text-center m-auto w-50" placeholder="Love Percentage">
+            	</div>
+            </div>
+            <div class="card-footer bg-warning"> God Bless Your Relationship 💖 </div>
+        </div>
+	</header>
+
+      <script src="./LoveCalculator.js"></script>
+
+</body>
+</html>
